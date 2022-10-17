@@ -1,0 +1,24 @@
+{
+  "name": "react-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "purgecss --css build/static/css/*.css --content build/index.html build/static/js/*.js --output build/static/css"
+  },
+  "dependencies": {
+    "next": "12.3.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "eslint": "8.25.0",
+    "eslint-config-next": "12.3.1",
+    "glob-all": "^3.3.0",
+    "purgecss-webpack-plugin": "^5.0.0"
+  }
+}
