@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container">
+      <div className="container">  
         <div className="row">
           <div className='col-6 bg-primary'>
             <h1>TEST ONLY</h1>
