@@ -1,6 +1,9 @@
 .container {
   padding: 0 2rem;
 }
+.test {
+  background: red; 
+}
 
 .main {
   min-height: 100vh;
