@@ -1,5 +1,6 @@
 module.exports = {
   "plugins": [
+    "autoprefixer",
     "tailwindcss", 
     "postcss-flexbugs-fixes",
     [
@@ -24,6 +25,6 @@ module.exports = {
         defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
         safelist: ["html", "body"]
       }
-    ], 
+    ],  
   ]
-}   
+}    

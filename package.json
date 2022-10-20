@@ -7,10 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "postbuild": "purgecss --css build/static/css/*.css --content build/index.html build/static/js/*.js --output build/static/css"
+    "postbuild": "purgecss --css build/static/css/*.css --content build/index.html build/static/js/*.js --output build/static/css",
+    "build:css": "postcss src/tailwind.css -o static/dist/tailwind.css"
   },
   "dependencies": {
     "bootstrap": "^5.2.2",
+    "cssnano": "^5.1.13",
     "next": "12.3.1",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-preset-env": "^7.8.2",
